@@ -5,3 +5,4 @@ with Image.open('i.webp') as pic:
     for i in range(5):
         blur_pic=blur_pic.filter(ImageFilter.BLUR)
     blur_pic.show()
+print('a')
